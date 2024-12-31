@@ -18,10 +18,10 @@ export default defineConfig({
         }),
     ],
     server: {
-    host: '0.0.0.0',
-    watch: {
-        usePolling: true,
-    },
-    port:5174,
-}
+        host: '0.0.0.0',
+        watch: {
+            usePolling: true,
+        },
+        port:5173,
+    }
 });
